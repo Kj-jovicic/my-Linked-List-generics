@@ -54,7 +54,7 @@ public class MyLinkedList
 
         Node newNode = new Node(book);
 
-        // Case 1: List is empty
+        
         if (Head == null)
         {
             Head = newNode;
@@ -62,7 +62,7 @@ public class MyLinkedList
             return;
         }
 
-        // Case 2: Insert at the start
+        
         if (index == 0)
         {
             newNode.Next = Head;
@@ -71,7 +71,7 @@ public class MyLinkedList
             return;
         }
 
-        // Case 3: Insert at the end
+        
         if (index == count)
         {
             Tail.Next = newNode;
@@ -80,7 +80,7 @@ public class MyLinkedList
             return;
         }
 
-        // Case 4: Insert in the middle (before the node currently at index)
+       
         Node current = GetNodeAt(index);
 
         newNode.Prev = current.Prev;
@@ -119,7 +119,7 @@ public class MyLinkedList
 
         Node target = GetNodeAt(index);
 
-        // Unlink from the previous node (or move Head if removing the first node)
+       
         if (target.Prev == null)
         {
             Head = target.Next;
@@ -129,7 +129,7 @@ public class MyLinkedList
             target.Prev.Next = target.Next;
         }
 
-        // Unlink from the next node (or move Tail if removing the last node)
+     
         if (target.Next == null)
         {
             Tail = target.Prev;
@@ -139,7 +139,7 @@ public class MyLinkedList
             target.Next.Prev = target.Prev;
         }
 
-        // Clear the removed node's links
+     
         target.Next = null;
         target.Prev = null;
 
