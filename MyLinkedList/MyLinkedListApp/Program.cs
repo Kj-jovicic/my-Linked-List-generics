@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        MyLinkedList list = new MyLinkedList();
+        MyLinkedList<Book> list = new MyLinkedList<Book>();
 
         
         string path = "books.txt";
