@@ -1,0 +1,13 @@
+Neuromancer;William Gibson;978-0441569595;1984-07-01;271;8,75;ScienceFiction
+Emma;Jane Austen;978-0141439587;1815-12-23;474;6,99;Romance
+The Hobbit;J.R.R. Tolkien;978-0547928227;1937-09-21;310;12,50;Fantasy
+A Brief History of Time;Stephen Hawking;978-0553380163;1988-03-01;212;11,99;Science
+Cosmos;Carl Sagan;978-0345539434;1980-10-01;396;13,50;Science
+The Selfish Gene;Richard Dawkins;978-0198788607;1976-10-01;360;10,25;Science
+The Fellowship of the Ring;J.R.R. Tolkien;978-0547928210;1954-07-29;423;12,50;Fantasy
+Pride and Prejudice;Jane Austen;978-0141439518;1813-01-28;279;6,99;Romance
+Cosmos;Carl Sagan;978-0345539434;1980-10-01;396;10,99;Science
+Dune;Frank Herbert;978-0441013593;1965-08-01;412;7,49;ScienceFiction
+Dune;Frank Herbert;978-0441013593;1965-08-01;412;9,99;ScienceFiction
+The Hobbit;J.R.R. Tolkien;978-0547928227;1937-09-21;310;9,90;Fantasy
+The Hobbit;J.R.R. Tolkien;978-0547928227;1937-09-21;310;9,90;Fantasy
